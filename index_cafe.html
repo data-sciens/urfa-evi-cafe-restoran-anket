@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<index.html
+urfa.jpg 
+logo.png></index.html>   
+
+<div class="container">
+
+
+ 
+    <div class="logo">
+        <img src="logo.png" alt="Urfa Evi Logo" style="width:48px; display:block; margin:0 auto; opacity:0.9;">
+
+    </div>
+
+ 
+    <h1>HARRAN ÜNİVERSİTESİ</h1>
+
+
+    <div class="slogan">
+        SADECE KONAKLAMA DEĞİL, TARİHİ YAŞAMAK İÇİN URFA EVİ
+    </div>
+
+
+       
+
+
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>URFA EVİ UYGULAMA OTELİ MEMNUNİYET ANKETİ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+   background:
+      url("4..jpeg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.container{
+    max-width:900px;
+    margin:40px auto;
+    padding:40px;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(10px);
+    border-radius:20px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.3);
+    }
+
+.container{
+    max-width:900px;
+    margin:40px auto;
+    padding:40px;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(10px);
+    border-radius:20px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.3);
+}
+
+h1{
+    text-align:center;
+    font-size:28px;
+    letter-spacing:1px;
+}
+
+.slogan{
+    text-align:center;
+    font-style:italic;
+    margin:15px 0 40px;
+    font-size:18px;
+    color:#f0f0f0;
+}
+
+.question{
+    margin-bottom:28px;
+}
+
+label{
+    display:block;
+    margin-bottom:10px;
+    font-weight:600;
+}
+
+select, textarea{
+    width:100%;
+    padding:12px;
+    border-radius:8px;
+    border:none;
+    font-size:15px;
+}
+
+textarea{
+    resize:vertical;
+}
+
+.options label{
+    font-weight:normal;
+    margin-right:18px;
+}
+
+button{
+    width:100%;
+    padding:16px;
+    background: linear-gradient(135deg,#B87333,#E6E6E6);
+    border:none;
+    border-radius:12px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    color:#18237F;
+}
+
+button:hover{
+    opacity:0.9;
+}
+
+@media(max-width:600px){
+    .options label{
+        display:block;
+        margin-bottom:8px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+<h1>URFA EVİ UYGULAMA OTELİ CAFE/RESTORAN MEMNUNİYET ANKETİ</h1>
+<div class="slogan">SADECE KONAKLAMA DEĞİL, TARİHİ YAŞAMAK İÇİN URFA EVİ</div>
+
+<form id="anketForm" action="https://script.google.com/macros/s/AKfycbwKY1sFcOzVK91dBhRLyWFCGM6asbwySMzWijOPFVI7JeUjijbi_5O2jpZ500pm-Gj1/exec" method="post">
+
+
+
+<div class="question">
+<label>Hangi alanı kullandınız?*</label>
+<select name="kullanılan_alan" required>
+<option value="">Seçiniz</option>
+<option>Cafe</option><option>Restoran</option>
+</select>
+</div>
+
+
+
+<script>
+function likert(name){
+    return `
+    <div class="options">
+    <label><input type="radio" name="${name}" required>1</label>
+    <label><input type="radio" name="${name}">2</label>
+    <label><input type="radio" name="${name}">3</label>
+    <label><input type="radio" name="${name}">4</label>
+    <label><input type="radio" name="${name}">5</label>
+    </div>`;
+}
+</script>
+<div style="margin:30px 0 10px; font-style:italic; opacity:0.9;">
+    (1 = Çok Kötü / 5 = Çok İyi)
+</div>
+
+<div class="question"><label>Menü çeşitliliğini nasıl değerlendirirsiniz?*</label><div class="options">
+<label><input type="radio" name="menu_cesit" value="1" required>1</label><label><input type="radio" name="menu_cesit" value="2">2</label>
+<label><input type="radio" name="menu_cesit" value="3">3</label><label><input type="radio" name="menu_cesit" value="4">4</label>
+<label><input type="radio" name="menu_cesit" value="5">5</label></div></div>
+
+<div class="question"><label>Fiyat–performans dengesini nasıl değerlendirirsiniz?*</label><div class="options">
+<label><input type="radio" name="fiyat_perfrmns" value="1"required>1</label><label><input type="radio" name="fiyat_perfrmns" value="2">2</label>
+<label><input type="radio" name="fiyat_perfrmns" value="3">3</label><label><input type="radio" name="fiyat_perfrmns" value="4">4</label>
+<label><input type="radio" name="fiyat_perfrmns" value="5">5</label></div></div>
+
+<div class="question"><label>Personelin ilgisini ve nezaketini nasıl değerlendirirsiniz?*</label><div class="options">
+<label><input type="radio" name="personel" value="1"required>1</label><label><input type="radio" name="personel" value="2">2</label>
+<label><input type="radio" name="personel" value="3">3</label><label><input type="radio" name="personel" value="4">4</label>
+<label><input type="radio" name="personel" value="5">5</label></div></div>
+
+<div class="question"><label>Siparişlerin hazırlanma süresini nasıl değerlendirirsiniz?*</label><div class="options">
+<label><input type="radio" name="siparis_süresi" value="1"required>1</label><label><input type="radio" name="siparis_süresi" value="2">2</label>
+<label><input type="radio" name="siparis_süresi" value="3">3</label><label><input type="radio" name="siparis_süresi" value="4">4</label>
+<label><input type="radio" name="siparis_süresi" value="5">5</label></div></div>
+
+<div class="question"><label>Kafe/restoran temizliğini nasıl değerlendirirsiniz?*</label><div class="options">
+<label><input type="radio" name="temizlik" value="1"required>1</label><label><input type="radio" name="temizlik" value="2">2</label>
+<label><input type="radio" name="temizlik" value="3">3</label><label><input type="radio" name="temizlik"value="4">4</label>
+<label><input type="radio" name="temizlik" value="5">5</label></div></div>
+
+<div class="question"><label>Ortamın (ambiyans, müzik, dekor) genel durumunu nasıl değerlendirirsiniz?*</label><div class="options">
+<label><input type="radio" name="ortam_ambyns" value="1" required>1</label><label><input type="radio" name="ortam_ambyns" value="2">2</label>
+<label><input type="radio" name="ortam_ambyns" value="3">3</label><label><input type="radio" name="ortam_ambyns" value="4">4</label>
+<label><input type="radio" name="ortam_ambyns" value="5">5</label></div></div>
+
+<div class="question"><label>Bizi çevrenize tavsiye eder misiniz??*</label><div class="options">
+<label><input type="radio" name="cevreye_tavsye" value="EVET"required>EVET</label><label><input type="radio" name="cevreye_tavsye" value="KARASIZIM">KARASIZIM</label>
+<label><input type="radio" name="cevreye_tavsye" value="HAYIR">HAYIR</label><label>
+
+
+<div class="question">
+<label>Geliştirilmesi gerektiğini düşündüğünüz konu nedir?</label>
+<textarea name="gelistirilecek_alan" rows="3" placeholder="Görüşlerinizi yazabilirsiniz..."></textarea>
+</div>
+
+<button type="submit">Anketi Gönder</button>
+
+</form>
+
+<div id="tesekkur" style="display:none; text-align:center; padding:80px 20px;">
+    <h1 style="font-size:32px; margin-bottom:20px;">
+        Katılımınız için teşekkür ederiz.
+    </h1>
+    <div style="font-size:20px; letter-spacing:1px;">
+        URFA EVİ UYGULAMA OTELİ
+    </div>
+    <div class="logo">
+        <img src="logo.png" alt="Urfa Evi Logo" style="width:48px; display:block; margin:0 auto; opacity:0.9;">
+
+    </div>
+
+</div>
+
+
+</div>
+
+
+<script>
+document.getElementById("anketForm").addEventListener("submit", function(e){
+    e.preventDefault(); // siyah OK ekranını engeller
+
+    fetch(this.action, {
+        method: "POST",
+        body: new FormData(this)
+    });
+
+    // formu gizle
+    this.style.display = "none";
+
+    // teşekkür mesajını göster
+    document.getElementById("tesekkur").style.display = "block";
+    
+});
+
+</script>
+
+</body>
+</html>
